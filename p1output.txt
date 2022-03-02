@@ -1,1 +1,5 @@
-
+gcc -g p1original.c -lm
+./a.out
+1 2
+1 4
+addition of 1/2,1/4 is 2/6
