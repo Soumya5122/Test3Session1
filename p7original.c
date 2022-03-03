@@ -10,7 +10,8 @@ int gcd(int a,int b)
   while (b != 0)
     {
       t=b;
-      b=a%b
+      b=a%b;
+      a=t
     }
 }
 int find_gcd(int a,int b);
