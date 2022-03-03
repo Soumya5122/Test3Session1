@@ -3,7 +3,7 @@ struct _fraction
 {
 int num,den;
 };
-typedef _fraction Fraction;
+typedef struct _fraction Fraction;
 int gcd(int a,int b)
 {
   int t;
@@ -11,8 +11,13 @@ int gcd(int a,int b)
     {
       t=b;
       b=a%b;
-      a=t
+      a=t;
     }
+  return a;
 }
-int find_gcd(int a,int b);
+int main()
+{
+  printf("%d\n",gcd(16,24));
+}
+
 
