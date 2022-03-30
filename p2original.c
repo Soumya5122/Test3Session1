@@ -16,15 +16,15 @@ Fraction Largest_fraction(Fraction f1, Fraction f2, Fraction f3)
   Fraction a;
   if (((f1.num/f1.den)>(f2.num/f2.den)) && (f1.num/f1.den)>(f3.num/f3.den))
   {
-    a=f1;
+    a= f1;
   }
   else if (f2.num/f2.den > f3.num/f3.den)
   {
-    a=f2;
+    a= f2;
   }
   else 
   {
-    a=f3;
+    a = f3;
   }
   return a;
 }
